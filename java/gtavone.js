@@ -4,6 +4,7 @@ $(document).ready(function () {
 	//};
 	$("<div/>", {
 		href: "index_histo.html",
+		//href: "histo_books.html",
 		"appendTo": "#gtavidone",
 		//"insertAfter": "#gtavidone",
 		"class": "container-fluid",
@@ -14,7 +15,7 @@ $(document).ready(function () {
 		"appendTo": ".aml_banner",
 		//"insertAfter": ".aml_banner",
 		"class": "list-group-aml",
-		html: "<a/><a/><a/><a/><a/><a/><a/><a/><a/>",
+		html: "<a/><a/><a/><a/><a/><a/><a/><a/><a/><a/>",
 	});
 	$(".list-group-aml").find("a").eq(0).html("Programación <span class='badge-aml'>21</span>").attr({
 		title: "Programacion de Histología",
@@ -31,33 +32,38 @@ $(document).ready(function () {
 		href: "histo_present.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(3).html("Presentaciones Silvia <span class='badge-aml'>28</span>").attr({
+	$(".list-group-aml").find("a").eq(3).html("Presentaciones Dra Miuril Lopez <span class='badge-aml'>38</span>").attr({
+		title: "Clases de Histología de Miuril Lopez",
+		href: "histo_miuril.html",
+		"class": "list-group-item-aml",
+	});	
+	$(".list-group-aml").find("a").eq(4).html("Presentaciones Silvia <span class='badge-aml'>28</span>").attr({
 		title: "Presentaciones de Silvia Histología",
 		href: "histo_present_silvia.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(4).html("Resumenes <span class='badge-aml'>40</span>").attr({
+	$(".list-group-aml").find("a").eq(5).html("Resumenes <span class='badge-aml'>40</span>").attr({
 		title: "Resumenes de Histología",
 		href: "histo_resumenes.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(5).html("Resumenes de Sofia Pellecer <span class='badge-aml'>7</span>").attr({
+	$(".list-group-aml").find("a").eq(6).html("Resumenes de Sofia Pellecer <span class='badge-aml'>7</span>").attr({
 		title: "Resumenes de Sofia Pellecer Histología",
 		href: "histo_sofiapellecer.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(6).html("Laminillas parte 1 <span class='badge-aml'>7</span>").attr({
+	$(".list-group-aml").find("a").eq(7).html("Laminillas parte 1 <span class='badge-aml'>7</span>").attr({
 		title: "Fotos de laminillas de Histología",
 		href: "histo_laminillas1.html",
 		"class": "list-group-item-aml",
 	});
 
-	$(".list-group-aml").find("a").eq(7).html("Laminillas parte 2 <span class='badge-aml'>9</span>").attr({
+	$(".list-group-aml").find("a").eq(8).html("Laminillas parte 2 <span class='badge-aml'>9</span>").attr({
 		title: "Fotos de laminillas de Histología",
 		href: "histo_laminillas2.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(8).html("Parciales <span class='badge-aml'>11</span>").attr({
+	$(".list-group-aml").find("a").eq(9).html("Parciales <span class='badge-aml'>11</span>").attr({
 		title: "Parciales de Histología",
 		href: "histo_examenes.html",
 		"class": "list-group-item-aml",
@@ -398,7 +404,7 @@ $(document).ready(function () {
 	$("<p/>", {
 		href: "index_histo.html",
 		"appendTo": ".mode-night",
-		html: "<i class='icon-refresh'></i>&nbsp;&nbsp;&nbsp;Actualizado el 10 de agosto 2017.",
+		html: "<i class='icon-refresh'></i>&nbsp;&nbsp;&nbsp;Actualizado el 10 de Septiembre 2017.",
 	});
 	////
 	//////
@@ -504,7 +510,7 @@ $(document).ready(function () {
 		href: "Logos.html",
 		"style": "color: #f7f7f7",
 	});
-	$(".insert3").find("a").eq(4).html("Politica de Seguridad").attr({
+	$(".insert3").find("a").eq(5).html("Politica de Seguridad").attr({
 		title: "Politica de seguridad de MedicinaResources",
 		href: "aviso_politico_usario.html",
 		"style": "color: #f7f7f7",
