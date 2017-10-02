@@ -140,6 +140,11 @@ tr {
 	margin-left: 20%;
 	margin-right: 20%;
 }
+.ultimatep-hr {
+	border-top: 1px dashed #8c9557;
+	margin-left: 20%;
+	margin-right: 20%;
+}
 /*containers container for books*/
 .army-container {
 	background-color: #1e2e22;
@@ -178,4 +183,28 @@ tr {
 	text-align: center;
 	margin-left: 2%;
 	margin-right: 2%;
+}
+.army-button-minus {
+	border-radius: 3px;
+	border: 2px solid #8c9557;
+	background-color: #18392b;
+	padding: 1px;
+	display: block;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.code {
+	font-size: 1.2rem;
+}
+.aml-capuf {
+	background-color: #1e2e22;
+	color: #f7f7f7;
+	border: 4px solid #8c9557;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.aml-capuf h3 {
+	text-align: center;
 }
