@@ -14,7 +14,7 @@ $(document).ready(function () {
 		"appendTo": ".aml_banner",
 		//"insertAfter": ".aml_banner",
 		"class": "list-group-aml",
-		html: "<a/><a/><a/><a/><a/><a/><a/><a/><a/><a/>",
+		html: "<a/><a/><a/><a/><a/><a/><a/><a/><a/><a/><a/>",
 	});
 	$(".list-group-aml").find("a").eq(0).html("Programación <span class='badge-aml'>21</span>").attr({
 		title: "Programacion de Histología",
@@ -26,43 +26,49 @@ $(document).ready(function () {
 		href: "histo_books.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(2).html("Presentaciones <span class='badge-aml'>22</span>").attr({
+	//laboratorios
+	$(".list-group-aml").find("a").eq(2).html("Guías de Estudio <span class='badge-aml'>27</span>").attr({
+		title: "laboratorios de Histología",
+		href: "histo_laboratorios.html",
+		"class": "list-group-item-aml",
+	});
+	$(".list-group-aml").find("a").eq(3).html("Presentaciones <span class='badge-aml'>22</span>").attr({
 		title: "Presentaciones de Histología",
 		href: "histo_present.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(3).html("Presentaciones Dra Miuril Lopez <span class='badge-aml'>38</span>").attr({
+	$(".list-group-aml").find("a").eq(4).html("Presentaciones Dra Miuril Lopez <span class='badge-aml'>38</span>").attr({
 		title: "Clases de Histología de Miuril Lopez",
 		href: "histo_miuril.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(4).html("Presentaciones Silvia <span class='badge-aml'>28</span>").attr({
+	$(".list-group-aml").find("a").eq(5).html("Presentaciones Silvia <span class='badge-aml'>28</span>").attr({
 		title: "Presentaciones de Silvia Histología",
 		href: "histo_present_silvia.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(5).html("Resumenes <span class='badge-aml'>40</span>").attr({
+	$(".list-group-aml").find("a").eq(6).html("Resumenes <span class='badge-aml'>31</span>").attr({
 		title: "Resumenes de Histología",
 		href: "histo_resumenes.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(6).html("Resumenes de Sofia Pellecer <span class='badge-aml'>7</span>").attr({
+	$(".list-group-aml").find("a").eq(7).html("Resumenes de Sofia Pellecer <span class='badge-aml'>7</span>").attr({
 		title: "Resumenes de Sofia Pellecer Histología",
 		href: "histo_sofiapellecer.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(7).html("Laminillas parte 1 <span class='badge-aml'>7</span>").attr({
+	$(".list-group-aml").find("a").eq(8).html("Laminillas parte 1 <span class='badge-aml'>7</span>").attr({
 		title: "Fotos de laminillas de Histología",
 		href: "histo_laminillas1.html",
 		"class": "list-group-item-aml",
 	});
 
-	$(".list-group-aml").find("a").eq(8).html("Laminillas parte 2 <span class='badge-aml'>9</span>").attr({
+	$(".list-group-aml").find("a").eq(9).html("Laminillas parte 2 <span class='badge-aml'>9</span>").attr({
 		title: "Fotos de laminillas de Histología",
 		href: "histo_laminillas2.html",
 		"class": "list-group-item-aml",
 	});
-	$(".list-group-aml").find("a").eq(9).html("Parciales <span class='badge-aml'>11</span>").attr({
+	$(".list-group-aml").find("a").eq(10).html("Parciales <span class='badge-aml'>11</span>").attr({
 		title: "Parciales de Histología",
 		href: "histo_examenes.html",
 		"class": "list-group-item-aml",
@@ -94,14 +100,14 @@ $(document).ready(function () {
 	$("<div/>", {
 		href: "index_histo.html",
 		"appendTo": ".rowjs",
-		"insertAfter": ".col-md-6",
+		"insertAfter": ".col-md-6 .col-sm-3",
 		"class": "col-sm-3 aml_banner coljs",
 		html: "<div class='mode-night centerio'></div>",
 	});
 	$("<p/>", {
 		href: "index_histo.html",
 		"appendTo": ".mode-night",
-		html: "<i class='icon-refresh'></i>&nbsp;&nbsp;&nbsp;Actualizado el 10 de Septiembre 2017.",
+		html: "<i class='icon-refresh'></i>&nbsp;&nbsp;&nbsp;Actualizado el 30 de Septiembre 2017.",
 	});
 	////
 	//////
@@ -150,6 +156,6 @@ $(document).ready(function () {
 
 	Las secciones que debes tener cuidado son la de en medio y la columand derecha cuida tus inserciones dentro y despues!
 
-	att. Jorge AML Fundador de AML Productions.
+	att. Jorge AML Fundador de MedicinaResources y AML Productions.
 	*/
 });
